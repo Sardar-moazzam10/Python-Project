@@ -1,0 +1,56 @@
+{
+  "book_list": [
+    {
+      "book_id": 1,
+      "name": "Physics",
+      "price": 290,
+      "available": false
+    },
+    {
+      "book_id": 2,
+      "name": "Biology",
+      "price": 300,
+      "available": true
+    },
+    {
+      "book_id": 3,
+      "name": "Socilogy",
+      "price": 156,
+      "available": false
+    },
+    {
+      "book_id": 4,
+      "name": "Dermotology",
+      "price": 340,
+      "available": true
+    }
+  ],
+  "student_list": [
+    {
+      "reg_id": 1,
+      "name": "Ahmad"
+    },
+    {
+      "reg_id": 2,
+      "name": "Sultan"
+    }
+  ],
+  "loan_list": [
+    {
+      "loan_id": 1,
+      "book_id": 1,
+      "student_reg_id": 2,
+      "borrowed_at": "2025-10-24T20:59:46.714188",
+      "due_at": "2025-11-07T20:59:46.714188",
+      "returned_at": null
+    },
+    {
+      "loan_id": 2,
+      "book_id": 3,
+      "student_reg_id": 2,
+      "borrowed_at": "2025-10-24T21:00:25.657993",
+      "due_at": "2025-11-07T21:00:25.657993",
+      "returned_at": null
+    }
+  ]
+}
